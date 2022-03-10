@@ -1478,3 +1478,50 @@ Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo can
 2022-03-10 14:38:57.876  INFO 9440 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
 2022-03-10 14:38:57.952  INFO 9440 --- [main] c.f.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 21.466 seconds (JVM running for 24.843)
 2022-03-10 14:39:05.471  INFO 9440 --- [qtp1551760389-32] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 727 ms
+2022-03-10 15:08:20.706  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-10 15:08:20.738  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@78d71df1{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-03-10 15:08:20.739  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2022-03-10 15:08:20.744  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-03-10 15:08:20.746  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@6467ddc7{application,/productapi,[file:///C:/Users/LENOVO_PC/AppData/Local/Temp/jetty-docbase.8080.720575123048778930/, jar:file:/C:/Users/LENOVO_PC/.m2/repository/org/webjars/swagger-ui/4.5.0/swagger-ui-4.5.0.jar!/META-INF/resources],STOPPED}
+2022-03-10 15:08:20.765  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:08:20.773  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-10 15:08:20.780  INFO 9440 --- [RMI TCP Connection(42)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-10 15:08:31.884  INFO 3984 --- [main] c.f.springweb.ProductrestapiApplication  : Starting ProductrestapiApplication using Java 17 on Lenovo with PID 3984 (F:\workspace\STS\Spring Boot Fundamentals\productrestapi\target\classes started by LENOVO_PC in F:\workspace\STS\Spring Boot Fundamentals\productrestapi)
+2022-03-10 15:08:31.895  INFO 3984 --- [main] c.f.springweb.ProductrestapiApplication  : No active profile set, falling back to 1 default profile: "default"
+2022-03-10 15:08:35.883  INFO 3984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-10 15:08:36.106  INFO 3984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 188 ms. Found 1 JPA repository interfaces.
+2022-03-10 15:08:37.782  INFO 3984 --- [main] org.eclipse.jetty.util.log               : Logging initialized @12172ms to org.eclipse.jetty.util.log.Slf4jLog
+2022-03-10 15:08:38.754  INFO 3984 --- [main] o.s.b.w.e.j.JettyServletWebServerFactory : Server initialized with port: 8080
+2022-03-10 15:08:38.766  INFO 3984 --- [main] org.eclipse.jetty.server.Server          : jetty-9.4.45.v20220203; built: 2022-02-03T09:14:34.105Z; git: 4a0c91c0be53805e3fcffdcdcc9587d5301863db; jvm 17+35
+2022-03-10 15:08:38.893  INFO 3984 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring embedded WebApplicationContext
+2022-03-10 15:08:38.894  INFO 3984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6679 ms
+2022-03-10 15:08:39.891  INFO 3984 --- [main] org.eclipse.jetty.server.session         : DefaultSessionIdManager workerName=node0
+2022-03-10 15:08:39.892  INFO 3984 --- [main] org.eclipse.jetty.server.session         : No SessionScavenger set, using defaults
+2022-03-10 15:08:39.896  INFO 3984 --- [main] org.eclipse.jetty.server.session         : node0 Scavenging every 660000ms
+2022-03-10 15:08:39.939  INFO 3984 --- [main] o.e.jetty.server.handler.ContextHandler  : Started o.s.b.w.e.j.JettyEmbeddedWebAppContext@4e424582{application,/productapi,[file:///C:/Users/LENOVO_PC/AppData/Local/Temp/jetty-docbase.8080.1793081372584401504/, jar:file:/C:/Users/LENOVO_PC/.m2/repository/org/webjars/swagger-ui/4.5.0/swagger-ui-4.5.0.jar!/META-INF/resources],AVAILABLE}
+2022-03-10 15:08:39.941  INFO 3984 --- [main] org.eclipse.jetty.server.Server          : Started @14335ms
+2022-03-10 15:08:40.484  INFO 3984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-10 15:08:41.399  INFO 3984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-10 15:08:41.689  INFO 3984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-03-10 15:08:41.899  INFO 3984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.5.Final
+2022-03-10 15:08:42.656  INFO 3984 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-03-10 15:08:43.201  INFO 3984 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-03-10 15:08:45.400  INFO 3984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-03-10 15:08:45.439  INFO 3984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:08:46.969  WARN 3984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-03-10 15:08:51.738  INFO 3984 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+2022-03-10 15:08:51.916  INFO 3984 --- [main] o.e.j.s.h.ContextHandler.application     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-03-10 15:08:51.917  INFO 3984 --- [main] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-03-10 15:08:51.923  INFO 3984 --- [main] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2022-03-10 15:08:52.124  INFO 3984 --- [main] o.e.jetty.server.AbstractConnector       : Started ServerConnector@36aab105{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-03-10 15:08:52.127  INFO 3984 --- [main] o.s.b.web.embedded.jetty.JettyWebServer  : Jetty started on port(s) 8080 (http/1.1) with context path '/productapi'
+2022-03-10 15:08:52.204  INFO 3984 --- [main] c.f.springweb.ProductrestapiApplication  : Started ProductrestapiApplication in 21.895 seconds (JVM running for 26.598)
+2022-03-10 15:09:14.349  INFO 3984 --- [qtp155829656-33] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 647 ms
+2022-03-10 15:09:45.556  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-03-10 15:09:45.589  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] o.e.jetty.server.AbstractConnector       : Stopped ServerConnector@36aab105{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2022-03-10 15:09:45.590  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] org.eclipse.jetty.server.session         : node0 Stopped scavenging
+2022-03-10 15:09:45.593  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] o.e.j.s.h.ContextHandler.application     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-03-10 15:09:45.596  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] o.e.jetty.server.handler.ContextHandler  : Stopped o.s.b.w.e.j.JettyEmbeddedWebAppContext@4e424582{application,/productapi,[file:///C:/Users/LENOVO_PC/AppData/Local/Temp/jetty-docbase.8080.1793081372584401504/, jar:file:/C:/Users/LENOVO_PC/.m2/repository/org/webjars/swagger-ui/4.5.0/swagger-ui-4.5.0.jar!/META-INF/resources],STOPPED}
+2022-03-10 15:09:45.614  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-10 15:09:45.627  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-10 15:09:45.660  INFO 3984 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

@@ -34,7 +34,7 @@ public class ProductRestController {
 	{
 		return repository.findAll();
 	}
-	@Hidden
+	
 	@RequestMapping(value="/products/{id}" ,method=RequestMethod.GET)
 	@Operation(summary = "Returns a Product",description = "Take a id and return a Product")
 	public @ApiResponse(description = "Product Object")  
